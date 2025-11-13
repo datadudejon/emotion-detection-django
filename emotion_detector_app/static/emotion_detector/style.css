@@ -1,0 +1,132 @@
+/* A simple, clean style for the emotion_detector app */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Center all the content in a container */
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Style the form */
+form {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+form input[type="text"],
+form input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the result section */
+#result-container {
+    margin-top: 30px;
+}
+
+#prediction-result {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Style the debug images */
+.image-display {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.image-box {
+    text-align: center;
+}
+
+.image-box h3 {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.image-box img {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Specific style for the small cropped face */
+#face-crop-img {
+    width: 96px;
+    height: 96px;
+    border: 2px solid #3498db;
+}

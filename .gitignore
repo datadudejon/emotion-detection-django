@@ -1,0 +1,15 @@
+# Python
+ervenv/
+*.pyc
+__pycache__/
+
+# Django
+*.sqlite3
+/media/
+/static_root/
+
+# OS
+.DS_Store
+
+# VS Code
+.vscode/
